@@ -1,0 +1,49 @@
+Proje 1
+[22,27,16,2,18,6] -> Insertion Sort
+
+Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+
+Big-O gösterimini yazınız.
+
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+
+Average case: Aradığımız sayının ortada olması
+Worst case: Aradığımız sayının sonda olması
+Best case: Aradığımız sayının dizinin en başında olması.
+.
+
+
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+
+Verilen dizi: [22, 27, 16, 2, 18, 6]
+
+Adımlar:
+
+[22, 27, 16, 2, 18, 6] -> Başlangıç durumu, ilk eleman zaten sıralı kabul edilir.
+[22, 27, 16, 2, 18, 6] -> İkinci eleman, 22'den büyük olduğu için 22'nin sağında olacak şekilde yerleştirilir.
+[16, 22, 27, 2, 18, 6] -> Üçüncü eleman, 16'nın solunda ve 27'nin sağında olacak şekilde yerleştirilir.
+[2, 16, 22, 27, 18, 6] -> Dördüncü eleman, 2'nin solunda, 22'nin sağında ve 16'nın solunda olacak şekilde yerleştirilir.
+[2, 16, 18, 22, 27, 6] -> Beşinci eleman, 18'in sağında, 22'nin sağında ve 16'nın solunda olacak şekilde yerleştirilir.
+[2, 6, 16, 18, 22, 27] -> Altıncı eleman, dizinin sonuna yerleştirilir.
+Big-O gösterimi için, Insertion Sort algoritmasının zaman karmaşıklığının O(n^2) olduğunu biliyoruz.
+
+Time Complexity:
+
+Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer?
+
+Verilen dizinin ortalaması: [2, 6, 16, 18, 22, 27] -> 18 sayısı, ortadaki bir pozisyonda olduğu için average case'e girer.
+
+Verilen dizinin en kötü hali: [2, 6, 16, 18, 22, 27] -> 18 sayısı, dizinin sonunda olduğu için worst case'e girer.
+
+Verilen dizinin en iyi hali: [18, 2, 6, 16, 22, 27] -> 18 sayısı, dizinin en başında olduğu için best case'e girer.
+
+[7, 3, 5, 8, 2, 9, 4, 15, 6] dizisinin Selection Sort'a göre ilk 4 adımı:
+
+Adımlar:
+
+[2, 3, 5, 8, 7, 9, 4, 15, 6] -> En küçük elemanı bulup ilk sıraya yerleştirme.
+[2, 3, 5, 8, 7, 9, 4, 15, 6] -> İkinci en küçük elemanı bulup ikinci sıraya yerleştirme.
+[2, 3, 4, 8, 7, 9, 5, 15, 6] -> Üçüncü en küçük elemanı bulup üçüncü sıraya yerleştirme.
+[2, 3, 4, 5, 7, 9, 8, 15, 6] -> Dördüncü en küçük elemanı bulup dördüncü sıraya yerleştirme.
