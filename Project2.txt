@@ -1,0 +1,24 @@
+Proje 2
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+ChatGPT
+Merge Sort adım adım şu şekilde gerçekleşir:
+
+İlk adım (Bölme):
+
+Verilen diziyi ortadan ikiye böleriz: [16, 21, 11] ve [8, 12, 22]
+Bölünmüş Dizileri Sıralama:
+
+Her iki alt diziyi de aynı işlemi uygularız:
+[16, 21, 11] -> [11, 16, 21]
+[8, 12, 22] -> [8, 12, 22]
+Birleştirme (Merge):
+
+Sıralanmış alt dizileri birleştiririz:
+[11, 16, 21] ve [8, 12, 22] -> [8, 11, 12, 16, 21, 22]
+Bu adımlar sonucunda verilen dizi sıralanmış olur.
+
+Big-O Gösterimi:
+Merge Sort'un Big-O gösterimi O(n log n) şeklindedir. Bu, Merge Sort'un ortalama ve en kötü durumdaki zaman karmaşıklığını ifade eder. Bu karmaşıklık, dizinin boyutuna bağlı olarak logaritmik büyüme hızı ile artar, yani n elemanlı bir diziyi sıralamak için ortalama olarak n log n karşılaştırma yapar.
